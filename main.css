@@ -1,7 +1,8 @@
+
 * {
     margin: 0;
     padding: 0;
-}*/
+}
 html {
     font-size: 62.5%;
 }
@@ -26,17 +27,21 @@ div h2 :hover{
 }
  .gun-box {
     height: 20rem;
-    width: 25rem;
+    width: 22rem;
     background-color: aqua;  
-    background-image: linear-gradient(blue,aqua); 
+    background-image: linear-gradient(blue,aqua);
+    margin: 10px;
+    float: left; 
+    border-radius: 20px;
 }
 img {
-        width: 15rem;
-        height: 10rem;
+    width: 15rem;
+    height: 10rem;
     }
 div button {
-    width: 4rem;
+    width: 5rem;
     height: 2rem;
+    margin-left: 20px;
 }
 h1.box:active{
     color:black;
@@ -60,4 +65,9 @@ div button:hover {
     background-color: aqua;  
     background-image: linear-gradient(blue,aqua);
 }
-
+img {
+    padding-left: 30px;
+}
+input {
+    margin-left: 25px;
+}
