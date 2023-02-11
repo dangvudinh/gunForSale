@@ -26,7 +26,7 @@ div h2 :hover{
     color: red;
 }
  .gun-box {
-    height: 20rem;
+    height: 25rem;
     width: 22rem;
     background-color: aqua;  
     background-image: linear-gradient(blue,aqua);
